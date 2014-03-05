@@ -1426,15 +1426,15 @@ article.page .post-meta {
   padding: 1em;
   border-radius: 0.25em; }
 
-.post-content pre code {
-    overflow: auto;
-    word-wrap: normal;
-    white-space: pre;
-    display: block;
-    padding: 0.5em;
-}
+/* .post-content pre code { */
+/*     overflow: auto; */
+/*     word-wrap: normal; */
+/*     white-space: pre; */
+/*     display: block; */
+/*     padding: 0.5em; */
+/* } */
 
-.post-content code {
-    display: inline;
-    padding: 0.2em 0.3em;
-}
+/* .post-content code { */
+/*     display: inline; */
+/*     padding: 0.2em 0.3em; */
+/* } */
