@@ -1425,3 +1425,9 @@ article.page .post-meta {
   background: #f3f3f3;
   padding: 1em;
   border-radius: 0.25em; }
+
+.post-content pre code {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}`
