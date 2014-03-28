@@ -1430,11 +1430,11 @@ article.page .post-meta {
     overflow: auto;
     word-wrap: normal;
     white-space: pre;
-    display: block;
-    padding: 0.5em;
+    /* display: block; */
+    /* padding: 0.5em; */
 }
 
-.post-content code {
-    display: inline;
-    padding: 0.2em 0.3em;
-}
+/* .post-content code { */
+/*     display: inline; */
+/*     padding: 0.2em 0.3em; */
+/* } */

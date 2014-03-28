@@ -6,8 +6,8 @@
 	    <title>{{meta_title}}</title>
 	    <meta name="description" content="{{meta_description}}" />
 	    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-      <!-- Highlight.js Colorscheme -->
-      <link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/monokai_sublime.min.css">
+      <!-- Prism.js css -->
+      <link rel="stylesheet" href="/assets/css/prism.css">
 	    <meta name="HandheldFriendly" content="True" />
 	    <meta name="MobileOptimized" content="320" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
 	    <script type='text/javascript'>//<![CDATA[
 	    	var disqus = {
 	    		'activate' : true,
-	    		'shortname' : 'northemes'
+	    		'shortname' : 'extraloyal'
 	    	};
 	    //]]></script>
     </head>
@@ -29,12 +29,7 @@
 	    {{ghost_foot}}
 
 	    <script type='text/javascript' src='/assets/js/scripts.min.js'></script>
-      <!-- Hightlight.js -->
-      <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
-      <script>
-        $(document).ready(function() {
-          $('code').each(function(i, e) {hljs.highlightBlock(e)});
-        });
-      </script> 
+      <!-- Prism.js -->
+      <script src="/assets/js/prism.js"></script>
 	</body>
 </html>
